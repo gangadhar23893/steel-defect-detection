@@ -34,6 +34,7 @@ def predict_from_s3(request: S3Request):
 
 @app.post('/batch_predict')
 def batch_predict():
+    os.makedirs("temp", exist_ok=True)
     s3_files = list_files(bucket_name=BUCKET_NAME,prefix="input_images")
     results=[]
     alerts=[]
