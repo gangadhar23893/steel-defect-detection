@@ -1,0 +1,14 @@
+numpy
+pandas
+opencv-python
+torch
+torchvision
+Pillow
+fastapi
+uvicorn
+python-multipart
+requests
+Pillow
+boto3
+pydantic
+requests

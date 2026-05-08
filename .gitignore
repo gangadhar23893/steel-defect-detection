@@ -1,0 +1,43 @@
+# Virtual environment
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Mac files
+.DS_Store
+
+# Temp folders
+temp/
+results/
+
+# Dataset folders
+fault/
+normal/
+input_images/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# AWS credentials
+.aws/
+
+# Environment variables
+.env
+
+# Model checkpoints (optional if too large)
+*.pth
+
+# Git
+.git/
+
+# Logs
+*.log
+
+batch_inference.py
+buckets_test.py
+steel-defect-key.pem
+steel-defect-user_accessKeys.csv

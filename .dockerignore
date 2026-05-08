@@ -1,0 +1,17 @@
+venv/
+__pycache__/
+*.pyc
+temp/
+results/
+.git/
+fault/
+normal/
+batch_inference.py
+buckets_test.py
+.git/
+.github/
+.DS_Store
+steel-defect-key.pem
+steel-defect-user_accessKeys.csv
+
+
