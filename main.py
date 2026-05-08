@@ -9,6 +9,9 @@ from s3_utils import download_file,list_files
 
 app = FastAPI()
 
+os.makedirs("temp", exist_ok=True)
+os.makedirs("results", exist_ok=True)
+
 model = load_model("models/corrosion_model.pth")
 
 BUCKET_NAME = "steel-defect-detection-gangadhar"
