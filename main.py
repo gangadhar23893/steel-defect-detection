@@ -11,7 +11,7 @@ app = FastAPI()
 
 model = load_model("models/corrosion_model.pth")
 
-BUCKET_NAME = "gangadhar-steel-defect-demo"
+BUCKET_NAME = "steel-defect-detection-gangadhar"
 
 
 class S3Request(BaseModel):
