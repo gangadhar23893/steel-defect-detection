@@ -29,7 +29,7 @@ input_images/
 .env
 
 # Model checkpoints (optional if too large)
-*.pth
+#*.pth
 
 # Git
 .git/
